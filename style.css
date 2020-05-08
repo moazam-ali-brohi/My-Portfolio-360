@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+
+}
+/*header*/
+div.header-icon i{
+     color: white;
+     font-size: 16px;
+     float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+div.top-header{
+    color:white;
+    background-color:rgb(49, 110, 196);
+    height: 45px;
+}
+
+div.top-header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: auto;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 13px;
+}
+
+div ul li{
+    color: rgb(98, 98, 98);
+    font-family: Verdana;
+    font-size: 13px;
+    background-color: rgb(250, 250, 248);
+    height:18px;
+    width:90px;
+    border: none;
+    border-radius: 1px;
+    display: inline-block ;
+    margin: 10px;
+    padding: 2px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.nav-bar{
+      background-color:white;
+      height: 70px;
+      vertical-align: center;
+      
+}
+
+.nav-bar ul li{
+    background-color: #3566c0;
+    list-style: none;
+    float: right;
+    margin: 10px;
+    margin-top: 20px;
+    padding:6px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    size: 5px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-bar img {
+width: 200px;
+float: left;
+margin-left: 80px;
+}
+
+
+
+/* front image */
+
+.front-image img{
+    width:100%;
+}
+
+.short-bar{
+    background-color: #2559ac;
+    width: 1300px;
+    height: 21px;
+    color: white;
+    padding-top: 2px;
+    margin-left: 70px;
+    border-radius: 1px;
+}
+/* --------introduction------ */
+
+#introduction{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin-top: 80px;
+    color:#2a66c7;
+}
+#introduction h1 span{
+    color: #427900;
+}
+#introduction p{
+    font-size: 16px;
+    margin:50px 200px 100px 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(124, 123, 123);
+    line-height:27px;
+    text-transform: capitalize;
+}
+
+/* ---------total counting bar-------- */
+
+#total-bar{
+    background-color: #2655e8;
+    width:100%;
+    height: 300px;
+    display:inline-flex;
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+    font-family: 'Merriweather', serif;
+}
+
+#total-bar img{
+    width: 40px;
+    }
+#total-bar h2 h3{
+         text-align: center;
+         font-family: 'Merriweather', serif; 
+         
+}
+#total-bar h2{
+    font-size: 48px;
+    line-height: 69px;
+}
+#total-bar h3{
+    font-size: 14px;
+line-height: 20px;
+font-weight: 600;
+}
+
+
+.total-bar-number{
+    margin:100px 0px 50px 110px;
+}
+.total-bar-number span{
+    color: #74e61d;
+}
+
+/* -------what we are doing------ */
+
+div.what-we-are-doing div{
+    box-shadow:1px 1px 15px 1px #949494;
+    color: #0b47a7;
+    float:left;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(250, 249, 249);
+    width: 350px;
+    height: 150px;
+    margin: 30px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 50px;
+}
+
+div.what-we-are-doing{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.what-we-are-doing h1{
+    color: rgb(51, 124, 219);
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    display: block;
+}
+
+.what-we-are-doing span{
+    color: #429700;
+}
+#heading-logo{
+display:block;
+margin-left: 50%;
+margin-top: 10px;
+margin-bottom: 50px;
+}
+
+ /* -------mission and upcoming projects------ */
+
+.mission-and-projects{
+    margin: 0%;
+    padding: 0%;
+    color: #0b47a7;
+    font-family: 'Merriweather', serif;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+#mission-heading{
+    float: left;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.mission-mini-div{
+    display: inline-flex;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 300px;
+    height: 70px;
+    padding: 40px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    vertical-align:middle;
+}
+#mini-div{
+    margin-top: 50px;
+}
+#mission-heading div h3{
+    margin-left: 15px;
+}
+
+/* -----Event----- */
+
+#event-heading{
+    float: right;
+    margin-right: 190px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+} 
+
+#event-heading div{
+    color: rgb(104, 104, 104);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* --------image-gallery----- */
+.image-gallery{
+    clear:both;
+}
+.image-gallery h1{
+ color: rgb(39, 105, 190);
+ font-family: 'Merriweather', serif ;
+ text-align: center;
+}
+
+.image-gallery span{
+ color: #427900;
+}
+
+#images{
+    display: inline-block;
+    margin-left: 80px;
+    margin-bottom:150px;
+}
+
+/* -------footer----- */
+
+.contact-detail-container{
+    
+    width: 100%;
+    height: 400px;
+    background-color: #202020;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:rgb(117, 117, 117);
+    
+}
+.copyright-container{
+ width: 100%;
+ height: 25px;
+ font-size: 14px;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: left;
+ padding-left: 50px;
+ padding-top: 10px;
+ background-color: #316ec4;
+ color: white;
+}
+
+table{
+
+}
+table #phone-no{
+    padding-top: 80px;
+    padding-left:100px;
+    line-height: 25px;
+}
+table #links{
+    padding-left: 150px;
+    padding-top: 10px;
+    
+}
+#links h1{
+    color: white;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+}
+#links hr{
+    width: 100px;
+    height: 1px;
+    color: rgb(63, 63, 62);
+    border: 1px solid;
+    border-style: solid;
+}
+
+table #contact-us{
+    padding-left: 200px;
+    padding-top: 10px;
+}
+table #contact-us h1{
+    color: white;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    
+}
+
+#contact-us i{
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 17px;
+    width: 17px;
+    height: 17px;
+    padding: 10px;
+    color: white;
+    background-color: royalblue;
+    
+}
+#phone-no i{
+    color: yellowgreen;
+    margin-right: 10px;
+    margin-left: 3px;
+
+}
+
+/* --------hover effect------ */
+
+
+/* ----.what-we-are-doing hover effect----- */
+.what-we-are-doing div:hover{
+transform: scale(1.1);
+transition: 0.7s;
+}
